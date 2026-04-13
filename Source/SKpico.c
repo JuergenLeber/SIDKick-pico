@@ -46,6 +46,7 @@
 #include "hardware/pwm.h"  
 #include "hardware/flash.h"
 #include "hardware/structs/bus_ctrl.h" 
+#include "hardware/structs/iobank0.h"
 #include "pico/audio_i2s.h"
 #include "launch.h"
 #include "prgconfig.h"

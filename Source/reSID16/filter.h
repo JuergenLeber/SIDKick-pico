@@ -151,6 +151,7 @@ public:
   void set8580FilterCoeffs( int low, int center );
   void set6581FilterCoeffs( const signed short *preset, int minFreq, int maxFreq, int distortion );
   void set6581FilterCoeffsC( int preset, int minFreq, int maxFreq );
+  float evalType3( float br, float o, float s, float mfr, int x );
 
 protected:
   chip_model chipModel;
