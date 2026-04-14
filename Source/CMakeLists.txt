@@ -1,7 +1,9 @@
 cmake_minimum_required(VERSION 3.13)
 
 set(PICO_SDK_FETCH_FROM_GIT on)
+set(PICO_SDK_FETCH_FROM_GIT_TAG "2.2.0")
 set(PICO_EXTRAS_FETCH_FROM_GIT on)
+set(PICO_EXTRAS_FETCH_FROM_GIT_TAG "sdk-2.2.0")
 
 include(pico_sdk_import.cmake)
 include(pico_extras_import.cmake)
