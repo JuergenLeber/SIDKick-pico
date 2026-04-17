@@ -49,7 +49,7 @@ add_executable(SKpico
 
 pico_generate_pio_header(SKpico ${CMAKE_CURRENT_LIST_DIR}/ws2812.pio)
 
-target_compile_definitions(SKpico PUBLIC  PICO PICO_STACK_SIZE=0x100)
+target_compile_definitions(SKpico PUBLIC  PICO PICO_STACK_SIZE=0x800)
 target_compile_definitions(SKpico PRIVATE PICO_MALLOC_PANIC=0)
 target_compile_definitions(SKpico PRIVATE PICO_USE_MALLOC_MUTEX=0)
 target_compile_definitions(SKpico PRIVATE PICO_DEBUG_MALLOC=0)
